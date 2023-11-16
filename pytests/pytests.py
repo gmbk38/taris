@@ -42,7 +42,7 @@ def test_list_length(sample_list):
 def test_list_sum(sample_list):
     assert sum(sample_list) == 15
 
-# 7. Моки позволяют заменить сложные функции (Заранее указать им результат) и изолировать код
+# 6. Моки позволяют заменить сложные функции (Заранее указать им результат) и изолировать код
 import requests
 from unittest.mock import MagicMock, patch
 
